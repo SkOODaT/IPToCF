@@ -1,0 +1,11 @@
+{
+    "INTERNAL_IP": "192.168.10.101",
+    "CF_API_KEY": "XXXxxxXXxxxXXxxxxXXXxxxXXxxxXXxxxx",
+    "CF_EMAIL": "xxxxxxxx@xxxxx.com",
+    "ZONE_ID": "XXXxxxXXxxxXXxxxxXXXxxxXXxxxXXxxxx",
+    "RECORD_ID": "XXXxxxXXxxxXXxxxxXXXxxxXXxxxXXxxxx",
+    "CF_NAME": "xxxxxxxx.com",
+    "CF_TYPE": "A",
+    "TIMER": 60,
+    "DEBUG": "False"
+}

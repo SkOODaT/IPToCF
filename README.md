@@ -6,7 +6,7 @@ Python3 Script To Update Cloudflare DNS Zones.
 
 ## IP To CF Config
 
-- Fill in iptocf.py Vars INTERNAL_IP, CF_API_KEY, CF_EMAIL, CF_NAME And Set TIMER
-- Run Script To Get Zone Names And IDs List... python iptocf.py
-- Fill in RECORD_ID in iptocf.py Vars
-- Startup.... python iptocf.py (python3)
+- Fill in configs.json.example And Rename To configs.json **Leave RECORD_ID Blank**
+- Run First Time To Get Zone Names And RECORD_IDs List... `python iptocf.py`
+- Fill in RECORD_ID with the ID Of The Record You Want To Update
+- Startup.... `python iptocf.py` (python3)
