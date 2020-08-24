@@ -39,8 +39,8 @@ if not configs['RECORD_ID']:
         for data in rjson:
             zone_name = data.get('zone_name', '')
             name = data.get('name', '')
-            zone_id = data.get('zone_id', 0)
-            print('[{}] {}'.format(name, zone_id))
+            id = data.get('id', 0)
+            print('[{}] {}'.format(name, id))
         assert response.status_code == 200
     except urllib3.exceptions.ProtocolError as de:
         retry_error = True
