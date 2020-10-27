@@ -6,6 +6,11 @@
     "RECORD_ID": "XXXxxxXXxxxXXxxxxXXXxxxXXxxxXXxxxx",
     "CF_NAME": "xxxxxxxx.com",
     "CF_TYPE": "A",
+    "INTERNAL_IP_2": "192.168.10.100",
+    "ZONE_ID_2": "XXXxxxXXxxxXXxxxxXXXxxxXXxxxXXxxxx",
+    "RECORD_ID_2": "XXXxxxXXxxxXXxxxxXXXxxxXXxxxXXxxxx",
+    "CF_NAME_2": "xxxxxxxx.com",
+    "CF_TYPE_2": "A",
     "TIMER": 60,
     "DEBUG": "False"
 }
