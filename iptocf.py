@@ -89,6 +89,7 @@ def UpdateCloudFlareIP():
 def GetExternalIP():
     externalIPURL = 'https://api.ipify.org/?format=json'
     if configs['INTERNAL_IP'] and configs['CF_TYPE'] and configs['CF_NAME']:
+        ip = int()
         try:
             response = requests.Session()
             inetface = source.SourceAddressAdapter(configs['INTERNAL_IP'])
